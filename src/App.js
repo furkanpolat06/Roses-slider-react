@@ -5,7 +5,7 @@ import Accordion from "./components/Accordion";
 const App = () => {
   return (
     <div>
-      <h1>Travel Destinations</h1>
+      <h1>Rose Flowers</h1>
       <Accordion /> 
     </div>
   );

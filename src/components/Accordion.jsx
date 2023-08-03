@@ -51,7 +51,7 @@ const Accordion = () => {
             >
               <img src={card.image} alt="Card" />
               <div className="content">
-                <span className="material-symbols-outlined">photo_camera</span>
+                <span className="material-symbols-outlined">Red Rose</span>
                 <div>
                   <h2>{card.header}</h2>
                   <p>{card.text}</p>
