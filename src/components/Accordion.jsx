@@ -1,37 +1,37 @@
 import React, { useState } from "react";
-import image1 from "../assets/img/1.jpg";
-import image2 from "../assets/img/2.jpg";
-import image3 from "../assets/img/3.jpg";
-import image4 from "../assets/img/4.jpg";
-import image5 from "../assets/img/5.jpg";
+import redRose from "../assets/img/redRose.jpg";
+import whiteRose from "../assets/img/whiteRose.jpg";
+import pinkRose from "../assets/img/pinkRose.jpg";
+import blackRose from "../assets/img/blackRose.jpg";
+
 import "../index.css";
 
 const cards = [
   {
-    header: "Canada",
-    image: image2,
-    text: `Image description here`,
+    header: "Red Rose",
+    image: redRose,
+    text: `Red rose is a beautiful flower.
+    Red roses are often given as a symbol of love.`,
   },
   {
-    header: "Bali",
-    image: image1,
-    text: `Image description here`,
+    header: "White Rose",
+    image: whiteRose,
+    text: `The white rose symbolizes purity and innocence.
+    Brides often choose white roses for their wedding bouquets to represent a fresh start and new beginnings.`,
   },
   {
-    header: "Spain",
-    image: image3,
-    text: `Image description here`,
+    header: "Pink Rose",
+    image: pinkRose,
+    text: `Pink roses represent admiration and gratitude.
+    She received a bouquet of pink roses as a thank-you gesture for her help`,
   },
   {
-    header: "Indonesia",
-    image: image4,
-    text: `Image description here`,
+    header: "Black Rose",
+    image: blackRose,
+    text: `Black roses are often associated with mystery and farewell.
+    In some cultures, black roses are considered a symbol of new beginnings and rebirth`,
   },
-  {
-    header: "South Africa",
-    image: image5,
-    text: `Image description here`,
-  },
+ 
 ];
 
 const Accordion = () => {
@@ -51,10 +51,10 @@ const Accordion = () => {
             >
               <img src={card.image} alt="Card" />
               <div className="content">
-                <span className="material-symbols-outlined">Red Rose</span>
+              
                 <div>
                   <h2>{card.header}</h2>
-                  <p>{card.text}</p>
+                  <p className="text">{card.text}</p>
                 </div>
               </div>
               {isActive && (
