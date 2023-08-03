@@ -1,19 +1,32 @@
 section {
     display: flex;
-    gap: 10px;
+    gap: 5px;
     cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.719);
+    
   }
+  body{
+    /* background-image: url("https://cdn.pixabay.com/photo/2015/12/19/20/32/paper-1100254_1280.jpg");
+    background-repeat:no-repeat;
+    background-position:center ; */
+    background: 
+#06348aea url("https://cdn.pixabay.com/photo/2015/12/19/20/32/paper-1100254_1280.jpg") no-repeat fixed  center ;
+   
+    
+
+  }
+  
   
   article {
     position: relative;
     overflow: hidden;
     background: #ffffff;
-    width: 10%;
-    height: 85vh;
+    width: 15%;
+    height: 87vh;
     /* border-radius: 16px; */
     display: flex;
     align-items: flex-end;
-    opacity: .6;
+    opacity: .9;
     transition: 0.5s;
   }
   
@@ -23,7 +36,7 @@ section {
   }
   
   article h2 {
-    font-size: 24px;
+    font-size: 27px;
     font-weight: 400;
     color: rgb(255 255 255 / 96%);
   }
@@ -49,8 +62,8 @@ section {
   
   article .content {
     position: absolute;
-    top: 0;
-    height: 70vh;
+    top: 10;
+    height: 75vh;
     left: 0;
     
     
@@ -101,6 +114,7 @@ h2{
  
 }
 p{
-  padding: .5rem;
-  
+  padding: .8rem 1.2rem;
+  font-size: 1.2rem;
+
 }

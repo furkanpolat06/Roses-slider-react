@@ -10,8 +10,10 @@ const cards = [
   {
     header: "Red Rose",
     image: redRose,
-    text: `Red rose is a beautiful flower.
-    Red roses are often given as a symbol of love.`,
+    text: `Red roses are often given as a symbol of love.
+    Many people give red roses on Valentine's Day.
+    Red roses are very beautiful and smell nice.
+    `,
   },
   {
     header: "White Rose",
