@@ -60,7 +60,7 @@ const Accordion = () => {
                 </div>
               </div>
               {isActive && (
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. In quas neque repellat ut alias, eum rerum voluptatibus quibusdam, et eaque hic debitis asperiores? Earum fuga nostrum soluta nam inventore deserunt.</p>
+                <p></p>
               )}
             </article>
           );
