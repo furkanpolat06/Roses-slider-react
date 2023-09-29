@@ -1,4 +1,4 @@
-#Roses Slider for Mobile
+# Roses Slider for Mobile
 
 This project includes an accordion component that showcases beautiful flowers of different colors. Each flower card contains the flower's name, image, and a brief description. When users click on each card, it expands to show more information, providing an accordion-like functionality.
 
